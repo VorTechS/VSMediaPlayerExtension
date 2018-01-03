@@ -21,4 +21,9 @@ The base manifest includes the following targets for installation:
 Installation
 ============
 
-If you have not already downloaded the media player
+If you have not already downloaded the media player, you can do so through the Visual Studio Market Place, and follow the normal installation process.  If you have been provided with the .VSIX file, simply double click on the file to launch the VSIX Installer, and choose the editions of Visual Studio you would like to make the extension available to.
+
+Configuration
+=============
+
+Configuration of the extension is performed using the Visual Studio menu 'Tools' and 'Options' dialog.  You will see a 'Visual Studio Media Player' category.  The default options are great for getting started with, but you must add at least one 'Media Path' before the plugin will successfully activate.
